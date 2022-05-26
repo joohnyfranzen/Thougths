@@ -9,7 +9,7 @@
 /* NAVBAR */
 
 #logo img {
-    height: 40px;
+    height: 70px;
 }
 #navbar {
     padding: 1.2em 1.5em;
@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #222;
-    border: 1px solid #f6982d;
+    border: 1px solid #1E90FF;
 }
 #navbar ul {
     display: flex;
@@ -33,10 +33,14 @@
     text-decoration: none;
     transition: 0.5;
     font-weight: bold;
+    border: 3px solid #1E90FF;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 #navbar ul li a:hover {
-    color: #f6982d;
+    color: #004085;
+    background-color: #fff;
 }
 
 /* CONTAINER */
@@ -68,13 +72,13 @@
 .auth-container h2 {
     margin-bottom: 1em;
     color: #fff;
-    border-left: 4px solid #f6982d;
+    border-left: 4px solid #1E90FF;
     padding: .3em;
     width: 100px;
 }
 
 .auth-container a {
-    color: #f6982d;
+    color: #1E90FF;
 }
 
 .form-control {
@@ -92,14 +96,14 @@
 .form-control textarea {
     padding: 7px;
     border-radius: 3px;
-    border: 1px solid #f6982d;
+    border: 1px solid #1E90FF;
 }
 
 form input[type='submit'],
 .btn {
     background-color: transparent;
-    color: #f6982d;
-    border: 2px solid #f6982d;
+    color: #1E90FF;
+    border: 2px solid #1E90FF;
     padding: .5em 1.2em;
     margin-bottom: 1em;
     font-size: 1em;
@@ -112,14 +116,14 @@ form input[type='submit'],
 
 form input[type='submit']:hover,
 .btn:hover {
-    background-color: #f6982d;
+    background-color: #1E90FF;
     color: #fff;
 }
 
 /* Create / edit form */
 
 .tought-form-container a {
-    color: #f6982d;
+    color: #1E90FF;
 }
 
 .tought-form-container a:hover {
@@ -129,7 +133,7 @@ color: #fff;
 .tought-form-container h1 {
     margin: 1em 0;
     color: #fff;
-    border-left: 4px solid #f6982d;
+    border-left: 4px solid #1E90FF;
     padding: .3em;
 
 }
@@ -146,7 +150,7 @@ color: #fff;
     margin-bottom: 1.5em;
 }
 .title-container h2 {
-    border-left: 4px solid #f6982d;
+    border-left: 4px solid #1E90FF;
     padding: 10px;
 }
 .dashboard h3 {
@@ -154,7 +158,7 @@ color: #fff;
 }
 .dashboard li {
     padding: 12px;
-    border-bottom: 1px solid #f6982d;
+    border-bottom: 1px solid #1E90FF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,7 +166,7 @@ color: #fff;
 
 .dashboard .label {
     font-weight: bold;
-    color: #f6982d;
+    color: #1E90FF;
 }
 
 .dashboard .actions {
@@ -175,7 +179,7 @@ color: #fff;
     margin: 0 0.5em;
 }
 .dashboard a {
-    color: #f6982d;
+    color: #1E90FF;
 }
 
 
@@ -191,7 +195,7 @@ color: #fff;
     margin-bottom: 1em;
 
 }.home-header span {
-    color: #f6982d;
+    color: #1E90FF;
 }
 .home header p,
 .home-header form {
@@ -238,7 +242,7 @@ color: #fff;
 .order-container button:hover,
 .order-container i:hover,
 .order-container a:hover {
-    color: #f6982d;
+    color: #1E90FF;
 }
 
 .order-container button,
@@ -261,7 +265,7 @@ color: #fff;
 }
 
 .toughts-container span {
-    color: #f6982d;
+    color: #1E90FF;
 }
 
 
@@ -273,11 +277,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #f6982d;
+    border-top: 1px solid #1E90FF;
 }
 
 footer span {
     font-weight: bold;
-    color: #f6982d;
+    color: #1E90FF;
 }
 
